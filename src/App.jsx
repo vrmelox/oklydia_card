@@ -2,7 +2,7 @@ import Info from './components/Info'
 import lydia from './assets/lydia.jpg'
 import Description from './components/description';
 import Footer from './components/Footer';
-
+import './styles/app.css'
 const lydiaProfile = {
   name: "Lydia Melo",
   job: "CEO OK LYDIA Inc.",
@@ -22,7 +22,7 @@ const interests = {
 
 function App() {
     return (
-      <div>
+      <div className='container'>
         <Info profile={lydiaProfile} />
         <Description paragraphe={About} />
         <Description paragraphe={interests} />

@@ -1,11 +1,15 @@
 .profile-card {
     font-family: "Inter", sans-serif;;
     width: 317px;
-    margin-right: auto;
-    margin-left: auto;
     text-align: center;
     background-color: #1A1B21;
     color: white;
+
+}
+
+.profile-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .profile-card h1, p {
