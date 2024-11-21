@@ -1,0 +1,57 @@
+.profile-card {
+    font-family: "Inter", sans-serif;;
+    width: 317px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: #1A1B21;
+    color: white;
+}
+
+.profile-card h1, p {
+    margin: 0px;
+}
+
+.profile-card h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.profile-job {
+    margin-top: 2px;
+    font-size: 12.8px;
+    color: #F3BF99;
+}
+
+.profile-email a {
+    color: white;
+    text-decoration: none;
+    font-size: 10.24px;
+}
+
+.profile-actions {
+    margin-top: 8px;
+}
+
+.btn-email {
+    margin-right: 8px;
+    color: #374151;
+}
+
+.btn-email, .btn-linkedin {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 1px solid #5093E2;
+    border-radius: 6px;
+    
+}
+
+.btn-linkedin {
+    color: white;
+    background-color: #5093E2;
+}
+
+.icon {
+    margin-right: 4px;
+}
+

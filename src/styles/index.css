@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252C;
+}
+#root {
+  width: 317px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 780px;
+  margin-top: 3em;
+  border-radius: 10px;
+}
