@@ -1,6 +1,5 @@
 .profile-card {
     font-family: "Inter", sans-serif;;
-    width: 317px;
     text-align: center;
     background-color: #1A1B21;
     color: white;
@@ -8,6 +7,8 @@
 }
 
 .profile-image {
+    width: 100%;
+    height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -47,6 +48,8 @@
     font-size: 14px;
     border: 1px solid #5093E2;
     border-radius: 6px;
+    align-items: center;
+    cursor: pointer;
     
 }
 
@@ -59,3 +62,26 @@
     margin-right: 4px;
 }
 
+@media (max-width: 600px) {
+    .profile-card {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .profile-name {
+        font-size: 20px;
+    }
+
+    .profile-job {
+        font-size: 11px;
+    }
+
+    .profile-email a {
+        font-size: 9px;
+    }
+
+    .btn-email, .btn-linkedin {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
